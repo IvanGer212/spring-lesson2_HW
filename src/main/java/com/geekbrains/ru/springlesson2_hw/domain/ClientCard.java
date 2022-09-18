@@ -9,6 +9,7 @@ public class ClientCard {
 
     long id;
     String name;
+    String sex;
     int age;
 
 }

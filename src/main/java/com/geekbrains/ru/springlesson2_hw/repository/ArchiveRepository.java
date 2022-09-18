@@ -6,5 +6,5 @@ import java.util.Optional;
 
 public interface ArchiveRepository {
 
-    Optional<ClientCard> giveClientCard();
+    Optional<ClientCard> findClientCardByName(String name);
 }

@@ -6,6 +6,6 @@ import java.util.Optional;
 
 public interface TimetableRepository {
 
-    Optional<Information> giveInfoAboutDoctor();
+    Optional<Information> giveInfoAboutDoctorBySpecialisation(String specialisation);
 
 }
