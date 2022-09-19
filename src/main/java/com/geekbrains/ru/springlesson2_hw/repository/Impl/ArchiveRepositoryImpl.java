@@ -3,12 +3,14 @@ package com.geekbrains.ru.springlesson2_hw.repository.Impl;
 import com.geekbrains.ru.springlesson2_hw.domain.ClientCard;
 import com.geekbrains.ru.springlesson2_hw.repository.ArchiveRepository;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
 import javax.annotation.PostConstruct;
 import java.util.ArrayList;
 import java.util.Optional;
 
-@Component
+//@Component
+@Repository
 public class ArchiveRepositoryImpl implements ArchiveRepository {
 
     private ArrayList<ClientCard> clientCards;

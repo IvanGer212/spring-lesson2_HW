@@ -4,10 +4,12 @@ import com.geekbrains.ru.springlesson2_hw.domain.ClientCard;
 import com.geekbrains.ru.springlesson2_hw.repository.ArchiveRepository;
 import com.geekbrains.ru.springlesson2_hw.service.ArchiveService;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import java.util.Optional;
 
-@Component
+//@Component
+@Service
 public class ArchiveServiceImpl implements ArchiveService {
 
     private ArchiveRepository archiveRepository;
